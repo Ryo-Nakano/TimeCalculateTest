@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{31EEE4F8-360B-EC89-77B2-39D9E3EADD8F}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TimeCalculateTest.cs">
     <Files>
-      <File FileName="Assets/Scripts/TimeCalculateTest.cs" Line="32" Column="39" />
+      <File FileName="Assets/Scripts/TimeCalculateTest.cs" Line="26" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
