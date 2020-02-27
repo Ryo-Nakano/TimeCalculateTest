@@ -44,6 +44,22 @@ public class TimeCalculateTest : MonoBehaviour {
                         leftSecondsSum = leftDay * 24 * 60 * 60 + leftTime * 60 * 60 + leftMinutes * 60 + leftSeconds;//全て秒に換算
                         Debug.Log("合計経過秒数：" + leftSecondsSum + "秒");//コンソールに出力
 
+                        Debug.Log("~~~ ~~~ ~~~ ~~~ ~~~");
+
+
+
+                        //【Timespan構造体を使う方法もある】
+                        // ↑多分こっちのTimeSpan使う実装の方が良さそう
+
+                        TimeSpan diff = nowTime - startTime; //差分計算
+                        Debug.Log("diff：" + diff);//差分を表示(そのまま)
+                        Debug.Log("経過日数：" + diff.TotalDays + "日");//経過日数を表示(少数)
+                        Debug.Log("経過時間：" + diff.TotalHours + "時間");//経過時間を表示(少数)
+                        Debug.Log("経過分数：" + diff.TotalMinutes + "分");//経過分数を表示(少数)
+                        Debug.Log("経過秒数：" + diff.TotalSeconds + "秒");//経過秒数を表示(少数)
+
+                        Debug.Log("==========================");
+
                 }
 	}
 }
